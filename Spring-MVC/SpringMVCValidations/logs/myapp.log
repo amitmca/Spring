@@ -1,0 +1,313 @@
+2015-06-17 18:11:47 DEBUG StudentController:44 - Inside root
+2015-06-17 18:11:48 DEBUG StudentValidator:20 - Inside validate log4j.properties
+2015-06-17 18:11:48 DEBUG StudentController:59 - Inside addStudent
+2015-06-17 18:13:37 DEBUG HomeController:26 - Inside home
+2015-06-17 18:16:21 DEBUG HomeController:26 - Inside home
+2015-06-17 18:36:44 DEBUG HomeController:26 - Inside home
+2015-06-17 19:35:06 DEBUG HelloWorld:15 - Inside HelloWorld Constructor
+2015-06-17 19:35:20 DEBUG HelloWorld:21 - Inside getMessage
+2015-06-17 19:37:52 DEBUG HelloWorld:15 - Inside HelloWorld Constructor
+2015-06-17 19:37:53 DEBUG HelloWorld:21 - Inside getMessage
+2015-06-17 19:50:32 DEBUG HelloWorld:15 - Inside HelloWorld Constructor
+2015-06-17 19:50:32 DEBUG HelloWorld:21 - Inside getMessage
+2015-06-17 20:01:22 ERROR Author:63 - No suitable driver found for jdbc:mysql://localhost:3306/test
+2015-06-17 20:02:24 ERROR Author:63 - No suitable driver found for jdbc:mysql://localhost:3306/test
+2015-06-17 20:03:34 DEBUG Author:59 - Connection completed.
+2015-06-17 20:03:54 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:03:59 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:04:04 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:04:04 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:04:04 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:04:04 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:04:04 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:04:04 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:04:04 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:04:04 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:04:04 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:04:04 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:04:04 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:04:04 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:04:04 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:04:04 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:04:04 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:04:04 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:04 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:04:05 DEBUG Author:59 - Connection completed.
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:04:05 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:04:05 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:05 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::1
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::2
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::3
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::4
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::5
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::7
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::8
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::9
+2015-06-17 20:04:05 DEBUG Author:23 - Inside getId::10
+2015-06-17 20:04:06 DEBUG Author:59 - Connection completed.
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:04:06 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:04:06 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:06 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:04:49 DEBUG Author:59 - Connection completed.
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::11
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::11	Kasturi Amit Bhalerao
+2015-06-17 20:04:49 DEBUG Author:59 - Connection completed.
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::11
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::11	Kasturi Amit Bhalerao
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::1
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::2
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::3
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::4
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::5
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::7
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::8
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::9
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::10
+2015-06-17 20:04:49 DEBUG Author:23 - Inside getId::11
+2015-06-17 20:04:49 DEBUG Author:59 - Connection completed.
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:04:49 DEBUG Author:30 - Inside setId::11
+2015-06-17 20:04:49 DEBUG Author:16 - Inside setName
+2015-06-17 20:04:49 DEBUG Author:38 - Record Fetched::11	Kasturi Amit Bhalerao
+2015-06-17 20:22:35 DEBUG Author:59 - Connection completed.
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::11
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::11	Kasturi Amit Bhalerao
+2015-06-17 20:22:35 DEBUG Author:59 - Connection completed.
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::11
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::11	Kasturi Amit Bhalerao
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::1
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::2
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::3
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::4
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::5
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::7
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::8
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::9
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::10
+2015-06-17 20:22:35 DEBUG Author:23 - Inside getId::11
+2015-06-17 20:22:35 DEBUG Author:59 - Connection completed.
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::1
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::1	Rob Bal
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::2
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::2	John Carter
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::3
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::3	Chris London
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::4
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::4	Truman De Bal
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::5
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::5	Emile Capote
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::7
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::7	Breech Jabber
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::8
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::8	Bob Carter
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::9
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::9	Nelson Mand
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::10
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::10	Tennant Mark
+2015-06-17 20:22:35 DEBUG Author:30 - Inside setId::11
+2015-06-17 20:22:35 DEBUG Author:16 - Inside setName
+2015-06-17 20:22:35 DEBUG Author:38 - Record Fetched::11	Kasturi Amit Bhalerao

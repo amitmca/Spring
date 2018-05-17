@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.tcs.userservice.mybatis.UserServiceMapper">
+ 
+ 	<resultMap id="UserResultMap" type="User">
+		 <id property="userId" column="USER_ID" />
+		 <result property="username" column="USERNAME"/>
+		 <result property="password" column="PASSWORD"/>
+		 <result property="firstName" column="FIRSTNAME"/>
+		 <result property="lastName" column="LASTNAME"/>
+		 <result property="phone" column="PHONE"/>
+		 <result property="emailId" column="EMAILID"/>
+	</resultMap>
+		
+	<insert id="saveUser" parameterType="user">
+		INSERT INTO myuser (USERNAME,PASSWORD,FIRSTNAME,LASTNAME,PHONE,EMAILID) 
+    	VALUES (#{user.username},#{user.password},#{user.firstName},#{user.lastName},#{user.phone},#{user.emailId})
+	</insert>
+	
+	<select id="getAllUsers" resultMap="UserResultMap">  
+		SELECT USER_ID,USERNAME,FIRSTNAME,LASTNAME,PHONE,EMAILID
+		FROM myuser; 
+	</select>
+	
+	<select id="getUserByUserId" resultMap="UserResultMap">  
+		SELECT USER_ID,USERNAME,PASSWORD,FIRSTNAME,LASTNAME,PHONE,EMAILID
+		FROM myuser 
+		WHERE USER_ID=#{userId} 
+	</select>
+	
+	<update id="updateUser" parameterType="user">
+		UPDATE myuser  
+    	SET
+    		USERNAME = #{user.username},
+    	    PASSWORD = #{user.password},
+    	    FIRSTNAME= #{user.firstName},
+    	    LASTNAME = #{user.lastName},
+    	    PHONE    = #{user.phone},
+    	    EMAILID  = #{user.emailId}
+    	WHERE 
+    		USER_ID = #{user.userId}    
+	</update>
+	
+	<delete id="deleteUser" parameterType="String">
+		DELETE FROM
+		myuser
+		WHERE USER_ID = #{userId}
+	</delete>
+	
+	<select id="getUserByUsername" resultMap="UserResultMap">  
+		SELECT USER_ID,USERNAME,PASSWORD,FIRSTNAME,LASTNAME,PHONE,EMAILID
+		FROM myuser 
+		WHERE USERNAME = #{username}  
+	</select>
+	
+	<select id="validateUser" resultMap="UserResultMap">  
+		SELECT USER_ID,USERNAME,PASSWORD,FIRSTNAME,LASTNAME,PHONE,EMAILID
+		FROM myuser 
+		WHERE USERNAME = #{username}  and PASSWORD = #{password}
+	</select>
+	
+</mapper> 

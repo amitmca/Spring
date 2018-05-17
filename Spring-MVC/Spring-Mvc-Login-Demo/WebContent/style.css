@@ -1,0 +1,5 @@
+label,span,input{margin:5px;padding:5px;}
+span{color:red;}
+.content{width:400px;margin:auto;text-align:center;
+margin-top:200px;box-shadow:0.4em 0.4em 0.6em #611;}
+.fieldset{border-radius:10px;}

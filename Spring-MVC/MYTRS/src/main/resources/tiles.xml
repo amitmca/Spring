@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+       
+ <tiles-definitions>
+ 
+ 	<definition name="loginTemplate" template="/WEB-INF/views/template/loginTemplate.jsp">
+        <put-attribute name="body" value=""></put-attribute>
+    </definition>
+    
+    <definition extends="loginTemplate" name="login">
+        <put-attribute name="title" value="Login :: MyTRS"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/pages/login.jsp"></put-attribute>
+    </definition>
+ 
+    <definition name="base.definition" template="/WEB-INF/views/template/mainTemplate.jsp">
+        <put-attribute name="title" value=""></put-attribute>
+        <put-attribute name="header" value="/WEB-INF/views/template/header.jsp"></put-attribute>
+        <put-attribute name="menu" value="/WEB-INF/views/template/menu.jsp"></put-attribute>
+        <put-attribute name="body" value=""></put-attribute>
+        <put-attribute name="sidebar" value="/WEB-INF/views/template/leftsidebar.jsp"></put-attribute>
+        <put-attribute name="footer" value="/WEB-INF/views/template/footer.jsp"></put-attribute>
+    </definition>
+    
+    <definition extends="base.definition" name="welcome">
+        <put-attribute name="title" value="Dashboard"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/pages/welcome.jsp"></put-attribute>
+    </definition>
+    
+    <definition extends="base.definition" name="userList">
+        <put-attribute name="title" value="List Of Users"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/pages/userList.jsp"></put-attribute>
+    </definition>
+    
+    <definition extends="base.definition" name="edit">
+        <put-attribute name="title" value="Edit User Details"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/pages/edit.jsp"></put-attribute>
+    </definition>
+    
+    <definition extends="base.definition" name="grid">
+        <put-attribute name="title" value="List Of Users"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/pages/grid.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="rightsidebarLayout" template="/WEB-INF/views/template/rightsidebarLayout.jsp">
+        <put-attribute name="title" value=""></put-attribute>
+        <put-attribute name="header" value="/WEB-INF/views/template/header.jsp"></put-attribute>
+        <put-attribute name="menu" value="/WEB-INF/views/template/menu.jsp"></put-attribute>
+        <put-attribute name="body" value=""></put-attribute>
+        <put-attribute name="rightsidebar" value="/WEB-INF/views/template/rightsidebar.jsp"></put-attribute>
+        <put-attribute name="footer" value="/WEB-INF/views/template/footer.jsp"></put-attribute>
+    </definition>
+    
+     <definition extends="rightsidebarLayout" name="test">
+        <put-attribute name="title" value="List Of Users"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/pages/test.jsp"></put-attribute>
+    </definition>
+    
+</tiles-definitions>
+       

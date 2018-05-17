@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- 
+<tiles-definitions>
+
+    <definition name="defaultTemplate" template="/WEB-INF/views/layout/loginLayout.jsp">
+        <put-attribute name="title" value="Informatica DMS" />
+        <put-attribute name="newheader1" value="/WEB-INF/views/newheader1.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
+        <put-attribute name="newfooter1" value="/WEB-INF/views/newfooter1.jsp" />
+    </definition> -->
+
+<!--     <definition name=".mainTemplate" template="/WEB-INF/views/layout/pageLayout.jsp">
+        <put-attribute name="title" value="Informatica DMS" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="left" value="/WEB-INF/views/left.jsp" />
+        <put-attribute name="right" value="/WEB-INF/views/right.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+    </definition>
+     -->
+  <!--   <definition name=".mainTemplate" template="/WEB-INF/views/layout/pageLayout3.jsp">
+        <put-attribute name="title" value="Informatica DMS" />
+        <put-attribute name="newheader1" value="/WEB-INF/views/newheader1.jsp" />
+        <put-attribute name="newfooter1" value="/WEB-INF/views/newfooter1.jsp" />
+    </definition> -->
+<!--     
+    <definition name="DefaultTemplate" template="/WEB-INF/views/template/SiteTemplate.jsp">
+		<put-attribute name="title" 	value="Home" />
+		<put-attribute name="header" 	value="/WEB-INF/views/template/header.jsp" />
+		<put-attribute name="menu" 		value="/WEB-INF/views/template/menu.jsp" />
+		<put-attribute name="body" 		value="" />
+		<put-attribute name="footer" 	value="/WEB-INF/views/template/footer.jsp" />
+	</definition> -->
+
+    <!-- <definition name="login" extends=".loginTemplate">
+        <put-attribute name="title" value="Login :: MyTrades" />
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+    </definition>
+
+    <definition name="welcome" extends="DefaultTemplate">
+        <put-attribute name="title" value=" ::: MyTrades :::" />
+        <put-attribute name="body" value="/WEB-INF/views/welcome.jsp" />
+    </definition> -->
+    
+                
+<!-- </tiles-definitions> -->
+
+
+	<tiles-definitions>
+		<definition name="base.definition" template="/views/layout.jsp">
+			<put-attribute name="title" value="" />
+			<put-attribute name="header" value="/views/header.jsp" />
+			<put-attribute name="menu" value="/views/menu.jsp" />
+			<put-attribute name="body" value="" />
+			<put-attribute name="footer" value="/views/footer.jsp" />
+		</definition>
+	
+		<definition name="contact" extends="base.definition">
+			<put-attribute name="title"
+			value="Sample Spring MVC With Tiles Application" />
+			<put-attribute name="body" value="/views/test.jsp" />
+		</definition>
+	
+	</tiles-definitions>

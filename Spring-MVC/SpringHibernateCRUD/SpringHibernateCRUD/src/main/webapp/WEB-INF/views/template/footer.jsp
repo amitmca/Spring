@@ -1,0 +1,1 @@
+ <p>Copyright &copy; 2014 Developed by Amit</p> 
