@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java/Spring3/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java/Spring3/lib/asm-debug-all-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java/Spring3/lib/aspectj-1.6.8.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java/Spring3/lib/aspectjrt-1.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java/Spring3/lib/aspectjweaver-1.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java/Spring3/lib/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java/Spring3/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-aop/4.0.0.RELEASE/spring-aop-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-aspects/4.0.2.RELEASE/spring-aspects-4.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-beans/4.0.0.RELEASE/spring-beans-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-context/4.0.0.RELEASE/spring-context-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-context-support/4.0.0.RELEASE/spring-context-support-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-jdbc/4.0.0.RELEASE/spring-jdbc-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AMIT/.m2/repository/org/springframework/spring-expression/4.0.0.RELEASE/spring-expression-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

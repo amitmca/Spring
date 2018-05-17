@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="player" class="com.srcsys.interfaces.Player"></bean>
+	<bean id="basketballPlayer" class="com.srcsys.bean.BasketballPlayer"></bean>
+	<bean id="footballPlayer" class="com.srcsys.bean.FootballPlayer"></bean>
+	<bean id="playground" class="com.srcsys.service.Playground">
+		<property name="player">
+        	<ref local="basketballPlayer"/>
+        </property>
+	</bean>
+</beans>

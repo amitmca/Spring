@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap  PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="user">
+
+	<typeAlias alias="User" type="com.beingjavaguys.domain.User" />
+
+	<resultMap id="userResultMap" class="User">
+		<result property="userId" column="user_id" />
+		<result property="firstName" column="first_name" />
+		<result property="lastName" column="last_name" />
+		<result property="gender" column="gender" />
+		<result property="city" column="city" />
+
+	</resultMap>
+
+	<select id="listUsers" resultMap="userResultMap">
+		SELECT * FROM user
+	</select>
+
+	<insert id="insertUser" parameterClass="User">
+		INSERT INTO USER
+		(FIRST_NAME,LAST_NAME,GENDER,CITY)
+		VALUES(#firstName#,#lastName#,#gender#,#city#);
+	</insert>
+
+	<delete id="deleteUser" parameterClass="java.lang.Long">
+		DELETE FROM USER WHERE USER_ID = #value#
+	</delete>
+
+	<select id="getUserById" parameterClass="java.lang.Long"
+		resultMap="userResultMap">
+		SELECT * FROM USER WHERE USER_ID = #value#
+	</select>
+
+	<update id="updateUser" parameterClass="User">
+		UPDATE USER
+		SET FIRST_NAME    = #firstName#,
+		LAST_NAME    	 = #lastName#,
+		GENDER      	 = #gender#,
+		CITY      		 = #city#
+		WHERE USER_ID = #userId#
+	</update>
+
+</sqlMap>
