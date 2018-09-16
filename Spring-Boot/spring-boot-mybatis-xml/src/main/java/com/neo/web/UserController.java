@@ -13,7 +13,7 @@ import com.neo.entity.UserEntity;
 import com.neo.mapper.UserMapper;
 
 @RestController
-//@RequestMapping("user-portal")
+@RequestMapping("user-portal")
 public class UserController {
 	
 	@Autowired
