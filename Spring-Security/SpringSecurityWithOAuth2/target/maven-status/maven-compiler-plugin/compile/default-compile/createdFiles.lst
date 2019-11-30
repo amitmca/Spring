@@ -1,0 +1,14 @@
+com\stl\crm\controller\AboutController.class
+com\stl\crm\security\ResourceServerConfig.class
+com\stl\crm\repository\CustomerRepository.class
+com\stl\crm\config\DbConfig$1.class
+com\stl\crm\client\OAuth2Client.class
+com\stl\crm\config\AppInitializer.class
+com\stl\crm\controller\CustomerController.class
+com\stl\crm\security\SecurityConfig.class
+com\stl\crm\domain\Customer.class
+com\stl\crm\config\AppConfig.class
+com\stl\crm\service\CustomerService.class
+com\stl\crm\security\AuthorizationServerConfig.class
+com\stl\crm\config\DbConfig.class
+com\stl\crm\security\SecurityWebApplicationInitializer.class

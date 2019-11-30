@@ -3,9 +3,7 @@ package com.example.swagger.test;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
-
 import com.google.common.base.Predicate;
-
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
@@ -14,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import static springfox.documentation.builders.PathSelectors.regex;
 import static com.google.common.base.Predicates.or;
 
-@Profile("swagger-enabled-for-qa")
+@Profile("swagger-disabled-for-qa")
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {

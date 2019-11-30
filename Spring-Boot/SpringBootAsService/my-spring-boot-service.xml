@@ -1,0 +1,8 @@
+<service>
+      <id>my-spring-boot-service</id>
+      <name>my-spring-boot-service</name>
+      <description>Java Developer Zone - Spring boot as windows service example</description>
+      <executable>C:\Program Files\Java\jre1.8.0_191\bin</executable>
+      <arguments>-jar "%BASE%\demo.jar"</arguments>
+      <logmode>rotate</logmode>
+    </service>
