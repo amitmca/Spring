@@ -1,0 +1,8 @@
+spring.data.mongodb:
+      authentication-database: admin
+      database: customers
+      port: 27017
+      host: 127.0.0.1 
+server:
+  port : 8085
+        

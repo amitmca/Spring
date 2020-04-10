@@ -1,0 +1,6 @@
+com\ns\api\FruitRepository.class
+com\ns\api\FruitModel.class
+com\ns\api\FruitController.class
+com\ns\api\ApiApplication.class
+com\ns\api\FruitModel$FruitModelBuilder.class
+com\ns\api\FruitService.class

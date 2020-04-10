@@ -1,0 +1,14 @@
+version: "2.1"
+services:
+  spring-boot-project1:
+    image: spring-boot-project1
+    ports:
+    - 8085:8085
+    entrypoint: "java -Djava.security.egd=file:/dev/./urandom -jar /spring-boot-project1.jar"
+  spring-boot-project2:
+    image: spring-boot-project2
+    ports:
+    - 8086:8085
+    entrypoint: "java -Djava.security.egd=file:/dev/./urandom -jar /spring-boot-project2.jar"    
+    
+
