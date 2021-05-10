@@ -1,0 +1,67 @@
+#APP SPECIFIC CUSTOM PROPERTIES
+app:
+  name: spring boot api application
+  api:
+    title: Spring Boot APIs
+    version: 1.0.0
+    description: Spring Boot APIs description
+    base-package: com.example.api
+    contact-name: apisupportgroup
+    contact-email: apisupportgroup@abc.com
+    logging:
+      enable: true
+      url-patterns: "/users/*,/posts/*"
+      requestIdParamName: reqId
+    swagger:
+      enable: true
+server:
+  port: 8080
+logging:
+  level:
+    root: INFO
+    com.example.api.client: DEBUG
+  pattern:
+    #console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%8.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %X{REQUEST_ID} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: BASIC
+      postFeignClient:
+        loggerLevel: FULL
+spring:
+  jackson:  
+    date-format: "dd-MM-yyyy hh:mm:ss"
+    serialization:
+      INDENT_OUTPUT: true
+      FAIL_ON_EMPTY_BEANS: false
+      WRITE_DATES_AS_TIMESTAMPS: false
+    deserialization:
+      FAIL_ON_UNKNOWN_PROPERTIES: false
+      FAIL_ON_IGNORED_PROPERTIES: false
+
+graphql:
+  servlet:
+    max-query-depth: 20
+    exception-handlers-enabled: false
+  playground:
+    headers:
+      Authorization: Basic Token
+    tabs:
+      - name: User Query
+        query: classpath:playground/user.graphql
+        variables: classpath:playground/user_variables.json
+      - name: Post Query
+        query: classpath:playground/post.graphql
+        variables: classpath:playground/post_variables.json
+        headers:
+          Accept: application/json
+      - name: Comment Query
+        query: classpath:playground/comment.graphql
+        variables: classpath:playground/comment_variables.json
+    enabled: true
+voyager:
+  enabled: true

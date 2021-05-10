@@ -1,0 +1,12 @@
+package com.example.demo.domain;
+
+
+public class Post {
+
+    Post(Long id, Long userId, String title, String body) {
+        super(userId, title, body);
+        this.id = id;
+    }
+
+    Long id;
+}

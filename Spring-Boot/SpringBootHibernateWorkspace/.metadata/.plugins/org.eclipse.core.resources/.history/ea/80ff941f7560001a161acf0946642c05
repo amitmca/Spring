@@ -1,0 +1,28 @@
+package com.boraji.tutorial.hibernate.entity;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "EMPLOYEE")
+public class Employee {
+
+   @Id
+   @GeneratedValue(strategy = GenerationType.IDENTITY)
+   @Column(name = "EMP_ID")
+   private long id;
+
+   @Column(name = "NAME", nullable = false)
+   private String name;
+
+   @Column(name = "DESIGNATION")
+   private String designation;
+
+   @Column(name="SALARY")
+   private int salary;
+   
+   @ManyToOne
+   @JoinColumn(name = "DPT_ID")
+   private Department department;
+
+  
+}

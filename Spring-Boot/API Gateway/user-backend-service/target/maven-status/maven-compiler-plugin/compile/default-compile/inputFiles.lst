@@ -1,0 +1,7 @@
+J:\Coding\Spring\Spring-Boot\API Gateway\user-backend-service\src\main\java\com\cognizant\user\UserPortalApplication.java
+J:\Coding\Spring\Spring-Boot\API Gateway\user-backend-service\src\main\java\com\cognizant\user\entity\User.java
+J:\Coding\Spring\Spring-Boot\API Gateway\user-backend-service\src\main\java\com\cognizant\user\service\UserServiceImpl.java
+J:\Coding\Spring\Spring-Boot\API Gateway\user-backend-service\src\main\java\com\cognizant\user\controller\ExceptionHandlerController.java
+J:\Coding\Spring\Spring-Boot\API Gateway\user-backend-service\src\main\java\com\cognizant\user\service\UserService.java
+J:\Coding\Spring\Spring-Boot\API Gateway\user-backend-service\src\main\java\com\cognizant\user\controller\UserController.java
+J:\Coding\Spring\Spring-Boot\API Gateway\user-backend-service\src\main\java\com\cognizant\user\repository\UserRepository.java

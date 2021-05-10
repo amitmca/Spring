@@ -1,0 +1,7 @@
+com\cognizant\user\controller\UserController.class
+com\cognizant\user\controller\ExceptionHandlerController.class
+com\cognizant\user\UserPortalApplication.class
+com\cognizant\user\repository\UserRepository.class
+com\cognizant\user\service\UserService.class
+com\cognizant\user\service\UserServiceImpl.class
+com\cognizant\user\entity\User.class

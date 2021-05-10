@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CannyInfotechService.java&apos; to &apos;SpringBootNotifications/src/main/java/com.notification.service&apos;&#x0D;&#x0A;- Original project: &apos;springboot-unit-example&apos;&#x0D;&#x0A;- Destination element: &apos;SpringBootNotifications/src/main/java/com.notification.service&apos;&#x0D;&#x0A;- Original element: &apos;com.howtodoinjava.rest.service.CannyInfotechService.java&apos;" description="Copy compilation unit" destination="=SpringBootNotifications/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.notification.service" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.howtodoinjava.rest.service{CannyInfotechService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1597571356084" units="1" version="1.0"/>
+</session>

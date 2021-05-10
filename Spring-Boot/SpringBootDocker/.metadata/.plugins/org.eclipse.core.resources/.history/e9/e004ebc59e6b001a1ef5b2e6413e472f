@@ -1,0 +1,19 @@
+version: "2.1"
+services:
+  amit:
+    image: mongo:3.2.4
+    ports:
+    - 27017:27017
+    command: --smallfiles
+    
+# APP  ***************************************************************************************
+  amey:
+    image: spring-boot-mongo-docker
+    ports:
+    - 8085:8085
+    links:
+    - amit
+    entrypoint: "java -Djava.security.egd=file:/dev/./urandom -jar /app.jar"
+    
+    
+

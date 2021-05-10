@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Amit
+Build-Jdk: 15.0.2
+Implementation-Title: intro
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.ts.tutorials.feign
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/intro/
+Created-By: Maven Integration for Eclipse
+

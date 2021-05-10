@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+E:\Coding\Spring\Spring-Boot\API Gateway\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4259358012.index
+3939726653.index
+14469602.index

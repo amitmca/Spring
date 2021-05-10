@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringBootBasicDatabaseAuthentication"/>
+<aop-project name="SpringBootMVCUsingFreemarker"/>
+<aop-project name="SpringBootRabbitMQConsumer"/>
+<aop-project name="SpringBootAdminClient"/>
+<aop-project name="SpringBootCustomErrorPages"/>
+<aop-project name="SpringBootLogging"/>
+<aop-project name="SpringBootDefaultContextPath"/>
+<aop-project name="SpringBootCallMySqlProcedure"/>
+<aop-project name="SpringBootDataJPA"/>
+<aop-project name="SpringBootProfiles"/>
+<aop-project name="SpringBootJdbcSingleDataSource"/>
+<aop-project name="SpringBootExceptionHandling"/>
+<aop-project name="SpringBootAdminEurekaServer"/>
+<aop-project name="SpringBootHibernate"/>
+<aop-project name="SpringBootWebsocketChatApplication"/>
+<aop-project name="SpringBootWithSecurity"/>
+<aop-project name="SpringBootJdbcMultipleDataSource"/>
+<aop-project name="SpringBootHikariCPExample"/>
+<aop-project name="SpringBootMognoDBAuthorization"/>
+<aop-project name="SpringbootMongocrudoperations"/>
+<aop-project name="SpringBootRabbitMQProduceMessage"/>
+<aop-project name="SpringBootWithXmlRequestResponse"/>
+<aop-project name="SpringBootJettyIntergration"/>
+<aop-project name="SpringBootDbcp2Example"/>
+<aop-project name="angular-springboot2-sample"/>
+<aop-project name="SpringBootActuator"/>
+<aop-project name="SpringBootYmlExample"/>
+<aop-project name="SpringBootUndertowIntergration"/>
+<aop-project name="SpringBootJpaMongodbRest"/>
+<aop-project name="SpringBootGmailIntegration"/>
+<aop-project name="SpringBootEurekaClient"/>
+<aop-project name="SpringBootRESTJPAMyBatis"/>
+<aop-project name="SpringBootSwagger"/>
+<aop-project name="SpringBootMybatisXml"/>
+<aop-project name="springbootpostgres"/>
+<aop-project name="SpringBootAngularJS"/>
+<aop-project name="SpringBootWarPackaging"/>
+<aop-project name="SpringBootGradle"/>
+<aop-project name="SpringBootInternationalization"/>
+<aop-project name="SpringBootAdminServer"/>
+<aop-project name="SpringBootMVCUsingThymeleaf"/>
+</aop-reference-model>

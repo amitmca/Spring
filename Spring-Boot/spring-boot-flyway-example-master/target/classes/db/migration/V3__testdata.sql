@@ -1,0 +1,1 @@
+update users set username='amu',first_name='Amey',last_name='Bhalerao' where id=1;

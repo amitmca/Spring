@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="first-service-eureka"/>
+<aop-project name="eureka-discovery"/>
+<aop-project name="second-service-eureka"/>
+<aop-project name="user-backend-service"/>
+<aop-project name="gateway-service-eureka"/>
+</aop-reference-model>

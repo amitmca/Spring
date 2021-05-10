@@ -1,0 +1,17 @@
+package com.example.demo.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.model.User;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long>{
+	 List<User> findByFirstnameAndLastname(String firstname, String lastname);
+	 List<User> findByAgeLessThan(int age);
+	 List<User> findByAgeGreaterThan(int age);
+	 List<User> findByFirstnameLike(String firstname);
+	 List<User> findByActiveTrue();
+}

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Employee-Service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Amit
+Implementation-Vendor-Id: com.self.sprintboot.learning.employee
+Build-Jdk: 1.8.0_20
+Implementation-URL: http://projects.spring.io/spring-boot/EmployeeServ
+ ice/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

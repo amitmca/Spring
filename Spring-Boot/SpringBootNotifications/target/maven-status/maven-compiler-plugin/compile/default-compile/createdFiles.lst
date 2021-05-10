@@ -1,0 +1,3 @@
+com\gmail\example\SpringBootGmailApplication.class
+com\gmail\example\controller\MessageRestController.class
+com\gmail\example\service\EmailService.class

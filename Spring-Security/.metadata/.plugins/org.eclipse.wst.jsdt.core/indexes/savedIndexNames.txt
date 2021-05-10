@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+I:\Coding\Spring\Spring-Security\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3880195611.index

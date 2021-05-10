@@ -1,0 +1,19 @@
+package com.cognizant.user.repository;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cognizant.user.entity.User;
+
+public interface UserRepository extends JpaRepository<User, Integer> {
+
+    void delete(Optional<User> user);
+
+    List<User> findAll();
+
+    Optional<User> findById(int id);
+
+    User save(User user);
+}

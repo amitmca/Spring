@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="I:\Coding\Spring\Spring-Boot\SpringBootHibernateWorkspace\springboot2-jpa-auditing"/>
+			<item value="I:\Coding\Spring\Spring-Boot\SpringBootHibernate"/>
+			<item value="I:\Coding\Spring\Spring-Boot\SpringBootHibernateWorkspace\HibernateCriteriaQueries"/>
+			<item value="I:\Coding\Spring\Spring-Boot\SpringBootHibernateWorkspace\jpa-many-to-many-demo"/>
+			<item value="I:\Coding\Spring\Spring-Boot\SpringBootHibernateWorkspace\jpa-one-to-one-demo"/>
+			<item value="I:\Coding\Spring\Spring-Boot\SpringBootHibernateWorkspace\jpa-one-to-many-demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

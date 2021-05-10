@@ -1,0 +1,9 @@
+package com.example.demo.domain;
+
+
+public class Post {
+	Long userId;
+	String title;
+	String body;
+    Long id;
+}

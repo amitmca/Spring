@@ -1,0 +1,13 @@
+1597570646438	Rename type 'MessageRestController'
+1597570681283	Rename package 'com.gmail.example'
+1597570699685	Rename package 'com.gmail.example.controller'
+1597570717317	Rename package 'com.gmail.example.service'
+1597570743989	Rename package 'com.notification.example'
+1597570753420	Rename package 'com.notification.example.controller'
+1597570763356	Rename package 'com.notification.example.service'
+1597571063231	Rename type 'SpringBootGmailApplication'
+1597571297462	Copy compilation unit
+1597600774997	Rename compilation unit 'FriendsEO.java'
+1597600859294	Rename package 'com.notification.model'
+1597600960828	Copy compilation unit
+1597600989180	Rename type 'Friends'

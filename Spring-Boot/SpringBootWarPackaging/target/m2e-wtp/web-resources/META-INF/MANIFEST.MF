@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Amit
+Build-Jdk: 15.0.1
+Implementation-Title: SpringBootWarPackaging
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/SpringBootWarPackaging
+Main-Class: com.example.demo.SpringBootWarPackagingApplication
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringBootHibernateExample"/>
+<aop-project name="SpringBootJPATesting"/>
+<aop-project name="jpa-one-to-many-demo"/>
+<aop-project name="jpa-many-to-many-demo"/>
+<aop-project name="SpringBootJPAQueryCreationFromMethodNames"/>
+<aop-project name="HibernateCriteriaQueries"/>
+<aop-project name="jpa-one-to-one-demo"/>
+<aop-project name="springboot2-jpa-auditing"/>
+</aop-reference-model>

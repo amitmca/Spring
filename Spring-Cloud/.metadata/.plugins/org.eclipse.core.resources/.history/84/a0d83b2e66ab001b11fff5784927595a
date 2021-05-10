@@ -1,0 +1,5 @@
+package com.ts.tutorials.feign.intro;
+
+public class UserController {
+
+}

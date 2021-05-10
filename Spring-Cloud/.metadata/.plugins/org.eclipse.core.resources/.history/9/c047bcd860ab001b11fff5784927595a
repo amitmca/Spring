@@ -1,0 +1,21 @@
+package com.example.demo.client;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.example.demo.domain.Company;
+
+
+@FeignClient(name = "companyClient" ,url = "https://api.spacexdata.com/v2/info")
+public interface CompanyApi {
+
+    @RequestMapping(method = RequestMethod.GET)
+    Company companyInfo();
+
+    @RequestMapping(method = RequestMethod.POST)
+    Company createCompany(Company post);
+
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HelloController.java&apos; to &apos;SpringBootJettyIntergration/src/main/java/com.example.demo&apos;&#x0D;&#x0A;- Original project: &apos;SpringBootMVCUsingJSP2&apos;&#x0D;&#x0A;- Destination element: &apos;SpringBootJettyIntergration/src/main/java/com.example.demo&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.HelloController.java&apos;" description="Copy compilation unit" destination="=SpringBootJettyIntergration/src\/main\/java&lt;com.example.demo" element1="/src\/main\/java&lt;com.example.demo{HelloController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1556721758994" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.SpringBootYmlExampleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.055 s <<< FAILURE! - in com.example.demo.SpringBootYmlExampleApplicationTests
+initializationError(com.example.demo.SpringBootYmlExampleApplicationTests)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.example.demo.SpringBootConfig]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [I:\Coding\Spring\Spring-Boot\SpringBootYmlExample\target\classes\com\example\demo\SpringBootConfig.class], Generic bean: class [com.example.demo.SpringBootYmlExampleApplication]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [I:\Coding\Spring\Spring-Boot\SpringBootYmlExample\target\classes\com\example\demo\SpringBootYmlExampleApplication.class]]
+

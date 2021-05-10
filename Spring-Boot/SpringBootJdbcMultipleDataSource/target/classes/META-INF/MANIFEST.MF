@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Amit
+Build-Jdk: 15.0.1
+Implementation-Title: spring-boot-10
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.surasint.example
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-10
+ /
+Created-By: Maven Integration for Eclipse
+
