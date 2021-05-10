@@ -1,0 +1,6 @@
+server:
+  port: 8989
+  context-path: /demo
+spring:
+  application:
+    name: spring yaml example

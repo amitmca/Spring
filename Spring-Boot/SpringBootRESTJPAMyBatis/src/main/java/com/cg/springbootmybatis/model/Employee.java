@@ -1,7 +1,6 @@
 package com.cg.springbootmybatis.model;
 
 import java.io.Serializable;
-
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
@@ -45,6 +44,4 @@ public class Employee implements Serializable {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-
-
 }

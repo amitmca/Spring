@@ -1,0 +1,84 @@
+2019-05-12 18:25:50,900 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-05-12 18:25:53,193 INFO  - Installing the service with id 'my-spring-boot-service'
+2019-05-12 18:25:53,648 DEBUG - Completed. Exit code is 0
+2019-05-12 18:26:23,863 INFO  - Starting ServiceWrapper in the service mode
+2019-05-12 18:26:24,567 INFO  - Starting C:\Program Files\Java\jdk1.8.0_20\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:26:24,598 INFO  - Starting C:\Program Files\Java\jdk1.8.0_20\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:26:25,111 DEBUG - Completed. Exit code is 0
+2019-05-12 18:26:40,410 INFO  - Starting ServiceWrapper in the service mode
+2019-05-12 18:26:40,483 INFO  - Starting C:\Program Files\Java\jdk1.8.0_20\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:26:40,493 INFO  - Starting C:\Program Files\Java\jdk1.8.0_20\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:26:40,542 DEBUG - Completed. Exit code is 0
+2019-05-12 18:28:26,424 INFO  - Starting ServiceWrapper in the service mode
+2019-05-12 18:28:26,506 INFO  - Starting C:\Program Files\Java\jdk1.8.0_20\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:28:26,516 INFO  - Starting C:\Program Files\Java\jdk1.8.0_20\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:28:26,568 DEBUG - Completed. Exit code is 0
+2019-05-12 18:31:47,318 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-05-12 18:31:54,653 INFO  - Uninstalling the service with id 'my-spring-boot-service'
+2019-05-12 18:31:54,894 DEBUG - Completed. Exit code is 0
+2019-05-12 18:32:12,594 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-05-12 18:32:16,562 INFO  - Installing the service with id 'my-spring-boot-service'
+2019-05-12 18:32:17,216 DEBUG - Completed. Exit code is 0
+2019-05-12 18:32:39,957 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-05-12 18:32:45,432 INFO  - Starting the service with id 'my-spring-boot-service'
+2019-05-12 18:32:50,004 INFO  - Starting ServiceWrapper in the service mode
+2019-05-12 18:32:50,674 DEBUG - Completed. Exit code is 0
+2019-05-12 18:32:51,833 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:32:52,011 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:32:52,880 DEBUG - Completed. Exit code is 0
+2019-05-12 18:36:27,191 INFO  - Starting ServiceWrapper in the service mode
+2019-05-12 18:36:29,317 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:36:29,605 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:36:30,801 DEBUG - Completed. Exit code is 0
+2019-05-12 18:38:26,726 INFO  - Starting ServiceWrapper in the service mode
+2019-05-12 18:38:27,277 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:38:27,322 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:39:32,137 DEBUG - Completed. Exit code is 0
+2019-05-12 18:49:49,517 INFO  - Starting ServiceWrapper in the service mode
+2019-05-12 18:49:49,579 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:49:49,585 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 18:49:49,624 DEBUG - Completed. Exit code is 0
+2019-05-12 19:13:51,936 INFO  - Starting ServiceWrapper in the service mode
+2019-05-12 19:13:52,415 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 19:13:52,481 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-12 19:15:06,527 DEBUG - Completed. Exit code is 0
+2019-05-16 08:20:05,417 INFO  - Starting ServiceWrapper in the service mode
+2019-05-16 08:20:05,840 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-16 08:20:05,896 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-16 08:21:32,661 DEBUG - Completed. Exit code is 0
+2019-05-16 22:30:48,981 INFO  - Starting ServiceWrapper in the service mode
+2019-05-16 22:30:49,473 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-16 22:30:49,481 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-16 22:31:50,466 DEBUG - Completed. Exit code is 0
+2019-05-18 09:09:21,503 INFO  - Starting ServiceWrapper in the service mode
+2019-05-18 09:09:21,735 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-18 09:09:21,743 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-18 09:10:26,508 DEBUG - Completed. Exit code is 0
+2019-05-18 12:43:37,859 INFO  - Starting ServiceWrapper in the service mode
+2019-05-18 12:43:38,353 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-18 12:43:38,385 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-18 12:44:44,635 DEBUG - Completed. Exit code is 0
+2019-05-18 21:45:05,950 INFO  - Starting ServiceWrapper in the service mode
+2019-05-18 21:45:06,364 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-18 21:45:06,373 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-18 21:46:12,307 DEBUG - Completed. Exit code is 0
+2019-05-19 09:38:21,931 INFO  - Starting ServiceWrapper in the service mode
+2019-05-19 09:38:23,308 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-19 09:38:23,316 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-19 09:39:29,064 DEBUG - Completed. Exit code is 0
+2019-05-22 16:20:37,278 INFO  - Starting ServiceWrapper in the service mode
+2019-05-22 16:20:37,450 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-22 16:20:37,457 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-22 16:21:39,691 DEBUG - Completed. Exit code is 0
+2019-05-23 19:55:07,597 INFO  - Starting ServiceWrapper in the service mode
+2019-05-23 19:55:08,106 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-23 19:55:08,114 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-23 19:56:13,317 DEBUG - Completed. Exit code is 0
+2019-05-25 10:21:48,950 INFO  - Starting ServiceWrapper in the service mode
+2019-05-25 10:21:49,132 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-25 10:21:49,138 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-25 10:22:54,366 DEBUG - Completed. Exit code is 0
+2019-05-25 11:32:03,483 INFO  - Starting ServiceWrapper in the service mode
+2019-05-25 11:32:03,550 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-25 11:32:03,558 INFO  - Starting C:\Program Files\Java\jre1.8.0_191\bin -jar "C:\Users\Amit\Downloads\Programs\demo.jar"
+2019-05-25 11:33:06,705 DEBUG - Completed. Exit code is 0
