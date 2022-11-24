@@ -11,7 +11,7 @@
 		<org.springframework.version>4.2.1.RELEASE</org.springframework.version>
 		<jackson.version>2.4.1</jackson.version>
 		<spring-data-jpa.version>1.11.1.RELEASE</spring-data-jpa.version>
-		<hibernate.version>4.2.6.Final</hibernate.version>
+		<hibernate.version>5.3.20.Final</hibernate.version>
 		<springsecurity.version>4.0.1.RELEASE</springsecurity.version>
 		<springsecurityoauth2.version>2.0.10.RELEASE</springsecurityoauth2.version>
 	</properties>
